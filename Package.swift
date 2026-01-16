@@ -164,7 +164,11 @@ let package = Package(
           package: "JavaScriptKit",
           condition: .when(platforms: [.wasi])
         ),
-        "OpenCombineJS",
+        .product(
+          name: "OpenCombineJS",
+          package: "OpenCombineJS",
+          condition: .when(platforms: [.wasi])
+        ),
       ]
     ),
     .executableTarget(
