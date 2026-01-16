@@ -54,7 +54,7 @@ let package = Package(
       from: "0.12.0"
     ),
     .package(
-      url: "https://github.com/swiftwasm/OpenCombineJS.git",
+      url: "https://github.com/ghdi1ghdi/OpenCombineJS.git",
       from: "0.2.0"
     ),
     .package(
