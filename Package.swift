@@ -5,7 +5,6 @@ import PackageDescription
 let package = Package(
   name: "Tokamak",
   platforms: [
-    .macOS(.v13),
     .iOS(.v13),
   ],
   products: [
